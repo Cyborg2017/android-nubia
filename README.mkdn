@@ -1,53 +1,5 @@
-MoKee Open Source
+Build MoKee Rom For Nubia Devices
 ===========
-
-Submitting Patches
-------------------
-Patches are always welcomed!  Please submit your patches via MoKee Gerrit! You can do this by using these commands:
-
-    (From root android directory)
-    . build/envsetup.sh
-    (Go to repo you are patching, make your changes and commit)
-    mkgerrit <for(new)/changes(patch set)> <branch/change-id>
-
-    repo start mkn-mr1 .
-    (Make your changes and commit)
-    repo upload .
-    or
-    git push ssh://<username>@mokeedev.review:29418/<project> HEAD:refs/for/<branch>
-
-*Note: "." means current directory*
-
-*Commit Example*
-
-We want to make a change in InputDevice.java that resides in the frameworks/base project, and upload that to Gerrit for review. Let's start a local branch of that repo (directory) and call it mychanges:
-
-    repo start mychanges frameworks/base && cd frameworks/base
-
-Now we make our edits to that file. We can check those changes:
-
-    git add InputDevice.java (or git add .)
-
-Then commit it:
-
-    git commit -m 'Added feature xyz'
-
-Go to the root of your local android folder, and issue the upload:
-
-    cd ~/mokee && repo upload frameworks/base
-
-For more help on using repo, use this command:
-
-    repo help upload
-
-Make your changes and commit with a detailed message, starting with what you are working with (i.e. vision: Update Kernel).
-
-Commit your patches in a single commit. Squash multiple commits using this command:
-
-    git rebase -i HEAD~<# of commits>
-
-To view the status of your and others' patches, visit [MoKee Code Review](https://mokeedev.review/)
-
 
 Getting Started
 ---------------
@@ -57,7 +9,7 @@ familiar with [Repo](https://source.android.com/source/using-repo.html) and [Ver
 
 To initialize your local repository using the MoKee trees, use a command like this:
 
-    repo init -u https://github.com/MoKee/android.git -b mkn-mr1
+    repo init -u https://github.com/nubia-development/android.git -b mkn-mr1
 
 Then to sync up:
 

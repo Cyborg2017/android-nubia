@@ -4,7 +4,7 @@
   <remote  name="nubia-development"
            fetch="https://github.com"
            review=".."   
-           revision="mkq" />
+           revision="mkq-dev" />
 
   <remote  name="github"
            fetch="https://github.com"

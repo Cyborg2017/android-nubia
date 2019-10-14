@@ -14,23 +14,23 @@
 <!--  <project path="device/qcom/common" name="MoKee/android_device_qcom_common"/>  -->
 
   <!-- MoKee Dependencies -->
-  <project path="packages/resources/devicesettings" name="MoKee/android_packages_resources_devicesettings"/>
+<!--  <project path="packages/resources/devicesettings" name="MoKee/android_packages_resources_devicesettings"/> -->
 
   <!-- Nubia MSM8953 Devices Start -->
   <!-- Nubia N3 OPEN/nx608j -->
-  <project path="device/nubia/nx608j" name="nubia-development/android_device_nubia_nx608j" groups="device" remote="nubia-development"/>
-  <project path="vendor/nubia/nx608j" name="nubia-development/android_vendor_nubia_nx608j" groups="device" remote="nubia-development"/>
+<!--  <project path="device/nubia/nx608j" name="nubia-development/android_device_nubia_nx608j" groups="device" remote="nubia-development"/>
+  <project path="vendor/nubia/nx608j" name="nubia-development/android_vendor_nubia_nx608j" groups="device" remote="nubia-development"/> -->
 
   <!-- Nubia V18/nx612j -->
-  <project path="device/nubia/nx612j" name="nubia-development/android_device_nubia_nx612j" groups="device" remote="nubia-development"/>
-  <project path="vendor/nubia/nx612j" name="nubia-development/android_vendor_nubia_nx612j" groups="device" remote="nubia-development"/>
+<!--  <project path="device/nubia/nx612j" name="nubia-development/android_device_nubia_nx612j" groups="device" remote="nubia-development"/>
+  <project path="vendor/nubia/nx612j" name="nubia-development/android_vendor_nubia_nx612j" groups="device" remote="nubia-development"/> -->
 
   <!-- Nubia MSM8953 Common Repos -->
-  <project path="device/nubia/msm8953-common" name="nubia-development/android_device_nubia_msm8953-common" groups="device" remote="nubia-development"/>
-  <project path="vendor/nubia/msm8953-common" name="nubia-development/android_vendor_nubia_msm8953-common" groups="device" remote="nubia-development"/>
+<!--  <project path="device/nubia/msm8953-common" name="nubia-development/android_device_nubia_msm8953-common" groups="device" remote="nubia-development"/>
+  <project path="vendor/nubia/msm8953-common" name="nubia-development/android_vendor_nubia_msm8953-common" groups="device" remote="nubia-development"/> -->
 
  <!-- Nubia MSM8953 Common Kernel -->
-  <project path="kernel/nubia/msm8953" name="nubia-development/android_kernel_nubia_msm8953" remote="nubia-development"/>
+<!--  <project path="kernel/nubia/msm8953" name="nubia-development/android_kernel_nubia_msm8953" remote="nubia-development"/> -->
   <!-- Nubia MSM8953 Devices End -->
 
   <!-- Nubia SDM660 Devices Start -->

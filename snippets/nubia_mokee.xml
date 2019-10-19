@@ -39,7 +39,7 @@
   <project path="vendor/nubia/nx611j" name="nubia-development/android_vendor_nubia_nx611j" groups="device" remote="nubia-development"/>
 
  <!-- Nubia SDM660 Common Kernel -->
-  <project path="kernel/nubia/sdm660" name="nubia-development/android_kernel_nubia_sdm660" revision="nubia_sdm660_q-dev" remote="github"/>
+  <project path="kernel/nubia/sdm660" name="nubia-development/android_kernel_nubia_sdm660" revision="nubia_sdm660_q-upstream" remote="github"/>
   <!-- Nubia SDM660 Devices End -->
 
 </manifest>

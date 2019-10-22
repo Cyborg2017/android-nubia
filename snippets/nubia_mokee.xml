@@ -42,4 +42,7 @@
   <project path="kernel/nubia/sdm660" name="nubia-development/android_kernel_nubia_sdm660" revision="nubia_sdm660_p-upstream" remote="github"/>
   <!-- Nubia SDM660 Devices End -->
 
+ <!-- Clang 9.0.3 for Q tag kernel -->
+  <project path="prebuilts/clang/host/linux-x86/clang-r353983c" name="Cyborg2017/prebuilts_clang_host_linux-x86_clang-r353983c" revision="master" remote="github"/>
+
 </manifest>

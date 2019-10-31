@@ -9,7 +9,7 @@ familiar with [Repo](https://source.android.com/source/using-repo.html) and [Ver
 
 To initialize your local repository using the MoKee trees, use a command like this:
 
-    repo init -u https://github.com/Cyborg2017/android-mokee.git -b mkp
+    repo init -u https://github.com/Cyborg2017/android-mokee.git -b mkp --depth=1
 
 Then to sync up:
 

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="nubia-development"
-           fetch="https://github.com"
+  <!--  <remote  name="nubia-development"
+           fetch="ssh://git@github.com"
            review=".."   
            revision="mkq-dev" />
 
   <remote  name="github"
-           fetch="https://github.com"
-           review=".."   />
+           fetch="ssh://git@github.com"
+           review=".."   /> -->
 
   <!-- Qcom Common -->
 <!--  <project path="device/qcom/common" name="MoKee/android_device_qcom_common"/>  -->
@@ -35,11 +35,11 @@
 
   <!-- Nubia SDM660 Devices Start -->
   <!-- Nubia Z18 Mini/nx611j -->
-  <project path="device/nubia/nx611j" name="nubia-development/android_device_nubia_nx611j" groups="device" remote="nubia-development"/>
-  <project path="vendor/nubia/nx611j" name="nubia-development/android_vendor_nubia_nx611j" groups="device" remote="nubia-development"/>
+  <project path="device/nubia/nx611j" name="Cyborg2017/android_device_nubia_nx611j" groups="device" revision="mkq-dev" remote="private"/>
+  <project path="vendor/nubia/nx611j" name="Cyborg2017/android_vendor_nubia_nx611j" groups="device" revision="mkq-dev" remote="private"/>
 
  <!-- Nubia SDM660 Common Kernel -->
-  <project path="kernel/nubia/sdm660" name="nubia-development/android_kernel_nubia_sdm660" revision="nubia_sdm660_q-upstream" remote="github"/>
+  <project path="kernel/nubia/sdm660" name="nubia-development/android_kernel_nubia_sdm660" revision="nubia_sdm660_q-upstream" remote="private"/>
   <!-- Nubia SDM660 Devices End -->
 
 </manifest>

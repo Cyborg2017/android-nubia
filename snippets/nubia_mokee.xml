@@ -59,4 +59,17 @@
   <project path="kernel/nubia/sdm660" name="nubia-development/android_kernel_nubia_sdm660" revision="nubia_sdm660_q-upstream" remote="private"/>
   <!-- Nubia SDM660 Devices End -->
 
+  <!-- Nubia SDM835 Devices Start -->
+  <!-- Nubia SDM835 Common Repos -->
+  <project path="device/nubia/sdm835-common" name="Cyborg2017/android_device_nubia_sdm835-common" groups="device" revision="mkp" remote="private"/>
+  <project path="vendor/nubia/sdm835-common" name="Cyborg2017/android_vendor_nubia_sdm835-common" groups="device" revision="mkp" remote="private"/>
+
+  <!-- Nubia Red Magic/nx609j -->
+  <project path="device/nubia/nx609j" name="Cyborg2017/android_device_nubia_nx609j" groups="device" revision="mkp" remote="private"/>
+  <project path="vendor/nubia/nx609j" name="Cyborg2017/android_vendor_nubia_nx609j" groups="device" revision="mkp" remote="private"/>
+
+ <!-- Nubia SDM835 Common Kernel -->
+  <project path="kernel/nubia/sdm835" name="nubia-development/android_kernel_nubia_sdm835" revision="nubia_msm8998_q-upstream" remote="private"/>
+  <!-- Nubia SDM835 Devices End -->
+
 </manifest>

@@ -14,7 +14,7 @@
 <!--  <project path="device/qcom/common" name="MoKee/android_device_qcom_common"/>  -->
 
   <!-- MoKee Dependencies -->
-<!--  <project path="packages/resources/devicesettings" name="MoKee/android_packages_resources_devicesettings"/> -->
+  <project path="packages/resources/devicesettings" name="MoKee/android_packages_resources_devicesettings"/>
 
   <!-- Nubia MSM8953 Devices Start -->
   <!-- Nubia N3 OPEN/nx608j -->

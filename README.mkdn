@@ -1,6 +1,21 @@
 Build MoKee Rom For Nubia Devices
 ===========
 
+Support Devices
+---------------
+
+mkp (mokee 90.0)
+
+    NX523J (Unofficial & Done)
+    NX529J (Unofficial & Done)
+    NX608J (Unofficial & WIP)
+    NX612J (Unofficial & WIP)
+    NX617J (Unofficial & WIP)
+    NX589J (Official & Done)
+    NX591J (Official & Done)
+    NX609J (Official & Done)
+    NX611J (Official & Done)
+
 Getting Started
 ---------------
 

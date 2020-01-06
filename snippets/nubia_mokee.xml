@@ -16,6 +16,17 @@
   <!-- MoKee Dependencies -->
   <project path="packages/resources/devicesettings" name="MoKee/android_packages_resources_devicesettings"/>
 
+  <!-- Nubia NX523J Start -->
+  <project path="device/nubia/nx523j" name="Cyborg2017/android_device_nubia_nx523j" groups="device" revision="mkp" remote="private"/>
+  <project path="vendor/nubia/nx523j" name="Cyborg2017/android_vendor_nubia_nx523j" groups="device" revision="mkp" remote="private"/>
+
+  <project path="device/nubia/nx523j-common" name="Cyborg2017/android_device_nubia_nx523j-common" groups="device" revision="mkp" remote="private"/>
+  <project path="vendor/nubia/nx523j-common" name="Cyborg2017/android_vendor_nubia_nx523j-common" groups="device" revision="mkp" remote="private"/>
+
+ <!-- Nubia NX523J Kernel -->
+  <project path="kernel/nubia/nx523j" name="nubia-development/android_kernel_nubia_nx523j" revision="nubia_msm8952_p" remote="private"/>
+  <!-- Nubia NX523J End -->
+
   <!-- Nubia MSM8952 Devices Start -->
   <!-- Nubia Z11 Mini/nx529j -->
   <project path="device/nubia/nx529j" name="Cyborg2017/android_device_nubia_nx529j" groups="device" revision="mkp" remote="private"/>

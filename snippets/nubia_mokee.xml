@@ -38,6 +38,14 @@
   <project path="external/sony/boringssl-compat" name="MoKee/android_external_sony_boringssl-compat" />
   <project path="external/stlport" name="MoKee/android_external_stlport"/>
   <project path="packages/resources/devicesettings" name="MoKee/android_packages_resources_devicesettings"/>
+  <project path="prebuilts/gcc/linux-x86/aarch64_aarch64-linux-android-4.9-m" name="Cyborg2017/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9-m" revision="android-6.0" remote="private"/>
+
+  <!-- Nubia NX529J Repos -->
+  <project path="device/nubia/nx529j" name="Cyborg2017/android_device_nubia_nx529j" groups="device" revision="mkn-mr1" remote="private"/>
+  <project path="vendor/nubia/nx529j" name="Cyborg2017/android_vendor_nubia_nx529j" groups="device" revision="mkn-mr1" remote="private"/>
+
+ <!-- Nubia NX529J Kernel -->
+  <project path="kernel/nubia/msm8952" name="nubia-development/android_kernel_nubia_msm8952" revision="nubia_msm8952_n" remote="private"/>
 
   <!-- Nubia N3 OPEN/nx608j -->
   <project path="device/nubia/nx608j" name="Cyborg2017/android_device_nubia_nx608j" groups="device" revision="mkn-mr1" remote="private"/>

@@ -11,7 +11,7 @@
   <remote  name="aosp"
            fetch="https://aosp.tuna.tsinghua.edu.cn"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-10.0.0_r23" />
+           revision="refs/tags/android-10.0.0_r27" />
 
   <default revision="refs/heads/mkq-mr1"
            remote="mokee"
@@ -356,7 +356,7 @@
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" remote="aosp" />
   <project path="external/toolchain-utils" name="platform/external/toolchain-utils" remote="aosp" />
-  <project path="external/toybox" name="platform/external/toybox" groups="pdk" remote="aosp" />
+  <project path="external/toybox" name="MoKee/android_external_toybox" groups="pdk" />
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" remote="aosp" />
   <project path="external/turbine" name="platform/external/turbine" groups="pdk" remote="aosp" />
   <project path="external/u-boot" name="platform/external/u-boot" groups="pdk" remote="aosp" />
@@ -617,7 +617,7 @@
   <project path="system/extras" name="MoKee/android_system_extras" groups="pdk" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
   <project path="system/gsid" name="platform/system/gsid" groups="pdk" remote="aosp" />
-  <project path="system/hardware/interfaces" name="platform/system/hardware/interfaces" groups="pdk" remote="aosp" />
+  <project path="system/hardware/interfaces" name="MoKee/android_system_hardware_interfaces" groups="pdk" />
   <project path="system/hwservicemanager" name="platform/system/hwservicemanager" groups="pdk" remote="aosp" />
   <project path="system/iorap" name="platform/system/iorap" groups="pdk" remote="aosp" />
   <project path="system/keymaster" name="MoKee/android_system_keymaster" groups="pdk" />

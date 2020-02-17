@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!--  <remote  name="nubia-development"
-           fetch="ssh://git@github.com"
-           review=".."   
-           revision="mkq-mr1" />
-
-  <remote  name="github"
-           fetch="ssh://git@github.com"
-           review=".."   /> -->
+  <remote  name="nubia-development"
+           fetch="https://github.com/nubia-development/"
+           review=".." />
 
   <!-- Qcom Common -->
 <!--  <project path="device/qcom/common" name="MoKee/android_device_qcom_common"/>  -->
@@ -26,7 +21,7 @@
   <project path="vendor/nubia/msm8952-common" name="Cyborg2017/android_vendor_nubia_msm8952-common" groups="device" revision="mkq-mr1" remote="private"/>
 
  <!-- Nubia MSM8952 Common Kernel -->
-  <project path="kernel/nubia/msm8952" name="nubia-development/android_kernel_nubia_msm8952" revision="nubia_msm8952_q-tag" remote="private"/>
+  <project path="kernel/nubia/msm8952" name="android_kernel_nubia_msm8952" revision="nubia_msm8952_q-tag" remote="nubia-development"/>
   <!-- Nubia MSM8952 Devices End -->
 
   <!-- Nubia MSM8953 Devices Start -->
@@ -52,7 +47,7 @@
   <project path="vendor/nubia/nx569j" name="Cyborg2017/android_vendor_nubia_nx569j" groups="device" revision="mkq-mr1" remote="private"/>
 
  <!-- Nubia Z17 Mini Kernel -->
-  <project path="kernel/nubia/nx569j" name="nubia-development/android_kernel_nubia_nx569j" revision="nubia_nx569j_q-tag" remote="private"/>
+  <project path="kernel/nubia/nx569j" name="android_kernel_nubia_nx569j" revision="nubia_nx569j_q-tag" remote="nubia-development"/>
   <!-- Nubia Z17 Mini End -->
 
   <!-- Nubia MSM8976 Devices Start -->
@@ -69,7 +64,7 @@
   <project path="vendor/nubia/msm8976-common" name="Cyborg2017/android_vendor_nubia_msm8976-common" groups="device" revision="mkq-mr1" remote="private"/>
 
  <!-- Nubia MSM898976 Common Kernel -->
-  <project path="kernel/nubia/msm8976" name="nubia-development/android_kernel_nubia_msm8976" revision="nubia_msm8976_q-dev" remote="private"/>
+  <project path="kernel/nubia/msm8976" name="android_kernel_nubia_msm8976" revision="nubia_msm8976_q-dev" remote="nubia-development"/>
   <!-- Nubia MSM8976 Devices End -->
 
   <!-- Nubia SDM660 Devices Start -->
@@ -78,7 +73,7 @@
   <project path="vendor/nubia/nx611j" name="Cyborg2017/android_vendor_nubia_nx611j" groups="device" revision="mkq-mr1" remote="private"/>
 
  <!-- Nubia SDM660 Common Kernel -->
-  <project path="kernel/nubia/sdm660" name="nubia-development/android_kernel_nubia_sdm660" revision="nubia_sdm660_q-upstream" remote="private"/>
+  <project path="kernel/nubia/sdm660" name="android_kernel_nubia_sdm660" revision="nubia_sdm660_q-upstream" remote="nubia-development"/>
   <!-- Nubia SDM660 Devices End -->
 
   <!-- Nubia SDM835 Devices Start -->
@@ -91,7 +86,7 @@
   <project path="vendor/nubia/nx609j" name="Cyborg2017/android_vendor_nubia_nx609j" groups="device" revision="mkq" remote="private"/>
 
  <!-- Nubia SDM835 Common Kernel -->
-  <project path="kernel/nubia/sdm835" name="nubia-development/android_kernel_nubia_sdm835" revision="nubia_msm8998_q-upstream" remote="private"/>
+  <project path="kernel/nubia/sdm835" name="android_kernel_nubia_sdm835" revision="nubia_msm8998_q-upstream" remote="nubia-development"/>
   <!-- Nubia SDM835 Devices End -->
 
 </manifest>

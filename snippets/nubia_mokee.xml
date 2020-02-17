@@ -46,6 +46,15 @@
 <!--  <project path="kernel/nubia/msm8953" name="nubia-development/android_kernel_nubia_msm8953" remote="nubia-development"/> -->
   <!-- Nubia MSM8953 Devices End -->
 
+  <!-- Nubia Z17 Mini Start -->
+  <!-- Nubia Z11 Mini/nx569j/nx569h -->
+  <project path="device/nubia/nx569j" name="Cyborg2017/android_device_nubia_nx569j" groups="device" revision="mkq-mr1" remote="private"/>
+  <project path="vendor/nubia/nx569j" name="Cyborg2017/android_vendor_nubia_nx569j" groups="device" revision="mkq-mr1" remote="private"/>
+
+ <!-- Nubia Z17 Mini Kernel -->
+  <project path="kernel/nubia/nx569j" name="nubia-development/android_kernel_nubia_nx569j" revision="nubia_nx569j_q-tag" remote="private"/>
+  <!-- Nubia Z17 Mini End -->
+
   <!-- Nubia MSM8976 Devices Start -->
   <!-- Nubia Z17 MiniS/nx589j -->
   <project path="device/nubia/nx589j" name="Cyborg2017/android_device_nubia_nx589j" groups="device" revision="mkq-mr1" remote="private"/>

@@ -26,8 +26,8 @@
 
   <!-- Nubia MSM8953 Devices (nx549j & nx551j) Start -->
   <!-- Nubia Z11 MiniS/nx549j -->
-<!--  <project path="device/nubia/nx549j" name="Cyborg2017/android_device_nubia_nx549j" groups="device" revision="mkq-mr1" remote="private"/>
-  <project path="vendor/nubia/nx549j" name="Cyborg2017/android_vendor_nubia_nx549j" groups="device" revision="mkq-mr1" remote="private"/>  -->
+  <project path="device/nubia/nx549j" name="Cyborg2017/android_device_nubia_nx549j" groups="device" revision="mkq-mr1" remote="private"/>
+  <project path="vendor/nubia/nx549j" name="Cyborg2017/android_vendor_nubia_nx549j" groups="device" revision="mkq-mr1" remote="private"/>
 
   <!-- Nubia M2/nx551j -->
   <project path="device/nubia/nx551j" name="Cyborg2017/android_device_nubia_nx551j" groups="device" revision="mkq-mr1" remote="private"/>

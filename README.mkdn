@@ -1,4 +1,4 @@
-Build MoKee Rom For Nubia Devices
+Build MoKee Rom For Nubia & Redmi Devices
 ===========
 Getting Started
 ---------------

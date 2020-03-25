@@ -693,6 +693,7 @@
 
   <include name="snippets/mokee.xml" />
   <include name="snippets/nubia_mokee.xml" />
+  <include name="snippets/redmi_mokee.xml" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Xiaomi MSM8953 Devices Start -->
+  <!-- Redmi Note 4/4X (mido) -->
+  <project path="device/xiaomi/mido" name="Cyborg2017/android_device_xiaomi_mido" groups="device" revision="mkq-mr1" remote="private"/>
+  <project path="vendor/xiaomi/mido" name="Cyborg2017/android_vendor_xiaomi_mido" groups="device" revision="mkq-mr1" remote="private"/>
+
+  <!-- Xiaomi MSM8953 Common Repos -->
+  <project path="device/xiaomi/msm8953-common" name="Cyborg2017/android_device_xiaomi_msm8953-common" groups="device" revision="mkq-mr1" remote="private"/>
+  <project path="vendor/xiaomi/msm8953-common" name="Cyborg2017/android_vendor_xiaomi_msm8953-common" groups="device" revision="mkq-mr1" remote="private"/>
+
+ <!-- Redmi Note 4/4X (mido) Kernel -->
+  <project path="kernel/xiaomi/mido" name="Cyborg2017/android_kernel_xiaomi_mido" revision="xiaomi_mido_q-temp" remote="private"/>
+  <!-- Xiaomi MSM8953 Devices End -->
+</manifest>

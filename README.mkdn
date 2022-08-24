@@ -56,7 +56,7 @@ To get started with Android/MoKee, you'll need to get familiar with [Source Cont
 
 To initialize your local repository using the MoKee trees, use a command like this:
 
-    repo init -u https://github.com/MoKee/android.git -b mkr-mr1
+repo init -u https://github.com/Cyborg2017/android-nubia.git -b mkr-mr1 --depth=1
 
 Then to sync up:
 

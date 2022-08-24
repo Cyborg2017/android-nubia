@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="nubia-development"
+           fetch="https://github.com/nubia-development/"
+           review=".." />
+
+  <!-- Nubia SDM660 Devices Start -->
+  <!-- Nubia Z18 Mini/nx611j -->
+  <project path="device/nubia/nx611j" name="Cyborg2017/android_device_nubia_nx611j-los" groups="device" revision="lineage-17.1" remote="private"/>
+  <project path="device/nubia/sdm660-common" name="Cyborg2017/android_device_nubia_sdm660-common-los" groups="device" revision="lineage-17.1" remote="private"/>
+  <project path="vendor/nubia" name="Cyborg2017/android_vendor_nubia_nx611j-los" groups="device" revision="lineage-17.1" remote="private"/>
+
+ <!-- Nubia SDM660 Common Kernel -->
+  <project path="kernel/nubia/sdm660" name="Cyborg2017/android_kernel_nubia_sdm660-los" revision="lineage-17.1" remote="private"/>
+  <!-- Nubia SDM660 Devices End -->
+
+</manifest>

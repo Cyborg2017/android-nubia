@@ -15,4 +15,14 @@
   <project path="kernel/nubia/sdm660" name="Cyborg2017/android_kernel_nubia_sdm660-los" revision="lineage-17.1" remote="private"/>
   <!-- Nubia SDM660 Devices End -->
 
+  <!-- Nubia MSM8998 Devices Start -->
+  <!-- Nubia Z17/nx563j -->
+  <project path="device/nubia/nx563j" name="Cyborg2017/android_device_nubia_nx563j-los" groups="device" revision="lineage-17.1" remote="private"/>
+  <project path="device/nubia/msm8998-common" name="Cyborg2017/android_device_nubia_msm8998-common-los" groups="device" revision="lineage-17.1" remote="private"/>
+  <project path="vendor/nubia" name="Cyborg2017/android_vendor_nubia_sdm835-los" groups="device" revision="lineage-17.1" remote="private"/>
+
+ <!-- Nubia MSM8998 Common Kernel -->
+  <project path="kernel/nubia/sdm835" name="Cyborg2017/android_kernel_nubia_sdm835-los" revision="lineage-17.1-sdm835" remote="private"/>
+  <!-- Nubia MSM8998 Devices End -->
+
 </manifest>

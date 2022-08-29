@@ -1122,4 +1122,5 @@
 
   <include name="snippets/lineage.xml" />
   <include name="snippets/pixel.xml" />
+  <include name="snippets/nubia_lineage.xml" />
 </manifest>

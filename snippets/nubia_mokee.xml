@@ -18,7 +18,7 @@
   <project path="vendor/nubia/msm8998-common" name="Cyborg2017/android_vendor_nubia_msm8998-common" groups="device" revision="lineage-18.1" remote="private"/>
 
  <!-- Nubia MSM8998 Common Kernel -->
-  <project path="kernel/nubia/sdm835" name="Cyborg2017/android_kernel_nubia_sdm835-oss" revision="lineage-18.1" remote="private"/>
+  <project path="kernel/nubia/msm8998" name="Cyborg2017/android_kernel_nubia_msm8998-oss" revision="lineage-18.1" remote="private"/>
   <!-- Nubia MSM8998 Devices End -->
 
 </manifest>

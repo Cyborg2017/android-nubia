@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- lineage-sdk -->
-  <project path="lineage-sdk" name="Cyborg2017/android_lineage-sdk" revision="lineage-20.0" remote="private"/>
-
   <!-- Nubia SDM660 Devices Start -->
   <!-- Nubia Z18 Mini/nx611j -->
   <project path="device/nubia/nx611j" name="Cyborg2017/android_device_nubia_nx611j-oss" groups="device" revision="lineage-20.0" remote="private"/>

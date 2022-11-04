@@ -20,6 +20,10 @@
   <project path="device/nubia/nx563j" name="android_device_nubia_nx563j-oss" groups="device" remote="cyborg"/>
   <project path="vendor/nubia/nx563j" name="android_vendor_nubia_nx563j" groups="device" remote="cyborg"/>
 
+  <!-- Nubia Z17S/nx595j -->
+  <project path="device/nubia/nx595j" name="android_device_nubia_nx595j-oss" groups="device" remote="cyborg"/>
+  <project path="vendor/nubia/nx595j" name="android_vendor_nubia_nx595j" groups="device" remote="cyborg"/>
+
   <!-- Nubia MSM8998 Common DT&VT -->
   <project path="device/nubia/msm8998-common" name="android_device_nubia_msm8998-common-oss" groups="device" remote="cyborg"/>
   <project path="vendor/nubia/msm8998-common" name="android_vendor_nubia_msm8998-common" groups="device" remote="cyborg"/>

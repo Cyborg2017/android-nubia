@@ -1,24 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="cyborg"
+           fetch="ssh://git@github.com/Cyborg2017/"           
+           review="..."
+           revision="lineage-17.1" />
+
   <!-- Nubia SDM660 Devices Start -->
   <!-- Nubia Z18 Mini/nx611j -->
-  <project path="device/nubia/nx611j" name="Cyborg2017/android_device_nubia_nx611j-oss" groups="device" revision="lineage-17.1" remote="private"/>
-  <project path="vendor/nubia/nx611j" name="Cyborg2017/android_vendor_nubia_nx611j" groups="device" revision="lineage-17.1" remote="private"/>
+  <project path="device/nubia/nx611j" name="android_device_nubia_nx611j-oss" groups="device" remote="cyborg"/>
+  <project path="vendor/nubia/nx611j" name="android_vendor_nubia_nx611j" groups="device" remote="cyborg"/>
 
- <!-- Nubia SDM660 Common Kernel -->
-  <project path="kernel/nubia/sdm660" name="Cyborg2017/android_kernel_nubia_sdm660-oss" revision="lineage-17.1" remote="private"/>
+  <!-- Nubia SDM660 Common Kernel -->
+  <project path="kernel/nubia/sdm660" name="android_kernel_nubia_sdm660-oss" remote="cyborg"/>
   <!-- Nubia SDM660 Devices End -->
 
   <!-- Nubia MSM8998 Devices Start -->
   <!-- Nubia Z17/nx563j -->
-  <project path="device/nubia/nx563j" name="Cyborg2017/android_device_nubia_nx563j-oss" groups="device" revision="lineage-17.1" remote="private"/>
-  <project path="device/nubia/msm8998-common" name="Cyborg2017/android_device_nubia_msm8998-common-oss" groups="device" revision="lineage-17.1" remote="private"/>
-  <project path="vendor/nubia/nx563j" name="Cyborg2017/android_vendor_nubia_nx563j" groups="device" revision="lineage-17.1" remote="private"/>
-  <project path="vendor/nubia/msm8998-common" name="Cyborg2017/android_vendor_nubia_msm8998-common" groups="device" revision="lineage-17.1" remote="private"/>
+  <project path="device/nubia/nx563j" name="android_device_nubia_nx563j-oss" groups="device" remote="cyborg"/>
+  <project path="vendor/nubia/nx563j" name="android_vendor_nubia_nx563j" groups="device" remote="cyborg"/>
 
- <!-- Nubia MSM8998 Common Kernel -->
-  <project path="kernel/nubia/msm8998" name="Cyborg2017/android_kernel_nubia_msm8998-oss" revision="lineage-17.1" remote="private"/>
+  <!-- Nubia MSM8998 Common DT&VT -->
+  <project path="device/nubia/msm8998-common" name="android_device_nubia_msm8998-common-oss" groups="device" remote="cyborg"/>
+  <project path="vendor/nubia/msm8998-common" name="android_vendor_nubia_msm8998-common" groups="device" remote="cyborg"/>
+
+  <!-- Nubia MSM8998 Common Kernel -->
+  <project path="kernel/nubia/msm8998" name="android_kernel_nubia_msm8998-oss" remote="cyborg"/>
   <!-- Nubia MSM8998 Devices End -->
 
 </manifest>

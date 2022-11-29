@@ -6,6 +6,9 @@
            review="..."
            revision="lineage-20.0" />
 
+  <!-- frameworks/base -->
+  <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="cyborg"/>
+
   <!-- Nubia SDM660 Devices Start -->
   <!-- Nubia Z18 Mini/nx611j -->
   <project path="device/nubia/nx611j" name="android_device_nubia_nx611j-oss" groups="device" remote="cyborg"/>
